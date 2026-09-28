@@ -15,14 +15,14 @@ The Application Certification Procedure (ACP) verifies that the application is g
 TLS-SE provides two kinds of cryptographic services: KEYS associated with persistent cryptographic objects and SECRETS associated with on-demand cryptographic objects.
 
 TLS-SE supports the following cryptographic procedures:
-RSA-2048 with PKCS #1 v1.5 signature.
-RSA-2048 encryption (in raw mode) and decryption.
-EC-256 (SECP256r1 and SECP256k1) with ECDSA signatures.
-AES-128 encryption and decryption.
-HMAC-SHA-256.
-HMAC-SHA-512.
-BIP32 with hardened keys.
-TLS 1.3 PSK binder and key derivation procedures.
+<br/>RSA-2048 with PKCS #1 v1.5 signature.
+<br/>RSA-2048 encryption (in raw mode) and decryption.
+<br/>EC-256 (SECP256r1 and SECP256k1) with ECDSA signatures.
+<br/>AES-128 encryption and decryption.
+<br/>HMAC-SHA-256.
+<br/>HMAC-SHA-512.
+<br/>BIP32 with hardened keys.
+<br/>TLS 1.3 PSK binder and key derivation procedures.
 
 Two wrap secrets are available, used to compute AES128 keys. Key blobs are built using AES-CCM authenticated encryption with associated data (AEAD) and a 16-byte tag.
 
