@@ -1,6 +1,8 @@
 TLS-SE version 3.0.5 (TLS for Secure Element) is a Java Card 3.0.5 application designed for personal Network HSM (pNHSM) servers.
 TLS-SE is a hardware security module accessed through shell commands over a protected TLS 1.3 connection.
 
+![alt text](https://github.com/purien/tls_se_305/blob/main/tlsse_stack_s.jpg)
+
 Two accounts are available: root and guest. They use different PSK identities and pre-shared keys. The root account can enable or disable cryptographic features.
 
 The embedded TLS 1.3 server uses pre-shared key (PSK) authentication, a mode resistant to quantum attacks, with an Elliptic Curve Diffie-Hellman Ephemeral (ECDHE) key exchange over the SECP256 prime curve.
